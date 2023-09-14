@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings used for the pop up alert dalogs -->
+<resources>
+    <!-- Help dialog -->
+    <string name="help_title">Using eMASTERs BLE Application</string>
+    <string name="help_contents">
+        <![CDATA[
+        <p>This app communicates with the RN4870 module on the Microchip AVR-BLE or PIC-BLE development board. The board should be running the original factory programmed firmware that uses the Transparent UART private service.</p>
+        <p>More details on Microchip\'s Bluetooth modules can be found on the <a href="http://www.microchip.com/bluetooth">Microchip</a> website</p>
+        ]]></string>
+    <string name="help_ok_button">OK</string>
+
+    <!-- About dialog -->
+    <string name="about_title">About eMASTERs BLE Application</string>
+    <string name="about_contents">Copyright (C) 2016-2020 Microchip Technology, Inc.\n\nVersion\u0020</string>
+    <string name="about_ok_button">OK</string>
+
+    <!-- Exit dialog -->
+    <string name="exit_title">Exit Application</string>
+    <string name="exit_contents">Are you sure you want to exit?</string>
+    <string name="exit_ok_button">OK</string>
+    <string name="exit_cancel_button">Cancel</string>
+
+    <!-- Unable to connect dialog -->
+    <string name="noconnect_title">Unable to Connect</string>
+    <string name="noconnect_contents">Failed to connect to the Bluetooth device.\n\nDo you want to scan for another device?</string>
+    <string name="noconnect_ok_button">OK</string>
+    <string name="noconnect_cancel_button">Cancel</string>
+
+    <!-- Lost connection dialog -->
+    <string name="lost_title">Lost Connection...</string>
+    <string name="lost_contents">The connection to the Bluetooth device was lost.\n\nDo you want to scan for another device?</string>
+    <string name="lost_ok_button">OK</string>
+    <string name="lost_cancel_button">Cancel</string>
+
+    <!-- Faulty device dialog -->
+    <string name="faulty_title">Faulty Device...</string>
+    <string name="faulty_contents">The Bluetooth device is faulty.\n\nDo you want to scan for another device?</string>
+    <string name="faulty_ok_button">OK</string>
+    <string name="faulty_cancel_button">Cancel</string>
+
+    <!-- Location Access Permission dialog -->
+    <string name="location_title">Location Permission Required</string>
+    <string name="location_contents">App cannot scan for bluetooth devices without permission for coarse location.\n\nPlease grant permission.</string>
+    <string name="location_continue_button">Continue</string>
+
+</resources>

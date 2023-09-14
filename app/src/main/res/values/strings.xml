@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings used in the application -->
+<resources>
+    <string name="app_name">MU BLE</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="enabling_bluetooth">Enabling Bluetooth</string>
+    <string name="connecting">Connecting</string>
+    <string name="connected">Connected</string>
+    <string name="discovering">Discovering</string>
+    <string name="disconnecting">Disconnecting</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="scan_for_devices">Scan for Devices</string>
+    <string name="degrees_celcius">\u00b0C</string>
+    <string name="degrees_celcius_blank">--.-\u00b0C</string>
+    <string name="accelerometer_x">X: </string>
+    <string name="accelerometer_x_blank">X: ---</string>
+    <string name="accelerometer_y">Y: </string>
+    <string name="accelerometer_y_blank">Y: ---</string>
+    <string name="accelerometer_z">Z: </string>
+    <string name="accelerometer_z_blank">Z: ---</string>
+    <string name="accelerometer">Accelerometer:</string>
+    <string name="greenled">Green LED</string>
+    <string name="redled">Red LED</string>
+    <string name="no_devices_found">No devices found</string>
+    <string name="devices_found">Devices found:</string>
+    <string name="error">Error</string>
+
+    <!-- Menu items for BleMainActivity and BleScanActivity -->
+    <string name="menu_scan">Scan</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+
+</resources>
